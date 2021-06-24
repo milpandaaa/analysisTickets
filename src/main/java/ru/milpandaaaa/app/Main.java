@@ -6,7 +6,7 @@ class Main{
             Analysis.start("D:\\GoogleChomeDownloads\\tickets.json");
         }
         catch (Exception e){
-            System.out.println(e.getMessage());
+           e.printStackTrace();
         }
     }
 }
